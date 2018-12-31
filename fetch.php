@@ -30,8 +30,6 @@
         $datafile = $datadir.DIRECTORY_SEPARATOR.$dataname.".txt";
         $statefile = $statedir.DIRECTORY_SEPARATOR.$dataname."_".$jobnumber.".dat";
 
-        #echo "JOB: ".$jobnumber."  DATA FILE: ".$datafile."  STATE_FILE: ".$statefile."\n";
-
         $datalines = file($datafile);
 
         if (count($datalines) > 0) {
