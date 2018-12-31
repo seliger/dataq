@@ -1,4 +1,3 @@
-#!/usr/bin/env php
 <?php
     ob_start();
     header('Content-Type: text/plain; charset=UTF-8');
